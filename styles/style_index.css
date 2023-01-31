@@ -1,0 +1,30 @@
+.input {
+  width: 50%;
+}
+
+.btn-arrowleft {
+  box-sizing: content-box;
+  width: 1em;
+  height: 1em;
+  padding: calc(var(--bs-modal-header-padding-y) * 0.5)
+    calc(var(--bs-modal-header-padding-x) * 0.5);
+  margin: calc(var(--bs-modal-header-padding-y) * -0.5)
+    calc(var(--bs-modal-header-padding-x) * -0.5)
+    calc(var(--bs-modal-header-padding-y) * -0.5) auto;
+  color: #000;
+  border: 0;
+  border-radius: 0.375rem;
+  opacity: 0.5;
+  display: flex;
+}
+
+.btn-arrowleft:hover {
+  color: #000;
+  text-decoration: none;
+  opacity: 0.75;
+}
+.btn-arrowleft:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  opacity: 1;
+}
